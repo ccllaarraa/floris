@@ -1,0 +1,122 @@
+
+
+$margin-d: 15px;
+// $fond: #434b23;
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    // type precisions
+    font-size: 11.5px;
+    line-height: 1.2;
+    scrollbar-width: none !important; 
+  
+}
+@font-face {
+    font-family: "arial-rounded";
+    src: url(./assets/fonts/arial-rounded.Ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+        font-family: "arial-rounded", Arial, Helvetica, sans-serif;
+       
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+body {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none !important;  /* Firefox */
+        margin: $margin-d;
+        color: white;
+    
+}
+html {
+    overflow-y:scroll;
+}
+a {
+    text-decoration: none;
+    color: #9C94AC;
+}
+
+a:link {
+    text-decoration: none;  
+  }
+a:visited { 
+    text-decoration: none;  
+    
+}
+
+
+a:hover { 
+    color: #C2EFF6;
+    transition: all .6s ease-in-out;
+    text-shadow: #C2EFF6 0 0 7px, #C2EFF6 0 0 2px, #C2EFF6 0 0 2px;
+    text-decoration: none; 
+}
+
+
+a:focus { text-decoration: none;   }
+ a:active { text-decoration: none;   }
+
+
+.btn:focus,
+.btn.focus {
+    box-shadow: none !important
+}
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+header {
+    // z-index: 6; 
+    // position: fixed;
+ }
+.slick-prev {
+   
+    height: 560px;
+    position: fixed;
+    width: 50vw;
+    z-index: 2;
+    background: transparent;
+    border: none;
+    color: transparent;
+    cursor: w-resize !important;
+}
+.slick-next {
+    
+    height: 545px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 50vw;
+    z-index: 2;
+    background: transparent;
+    border: none;
+    color: transparent;
+    cursor: e-resize !important;
+}  
+
+.background {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+.background-caption {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 20px;
+    width: 100vw;
+
+}

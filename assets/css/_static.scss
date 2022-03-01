@@ -1,0 +1,269 @@
+
+.front-mobile, #menu-button, .auri-menu-mobile {
+    display: none;
+}
+.png-img img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    object-fit: contain;
+    height: 100vh;
+    z-index: 7;
+    pointer-events: none;
+}
+// header
+.about {
+    position: fixed;
+    top: $margin-d;
+    right: $margin-d;
+    color: white;
+    z-index: 8;
+}
+.about-back {
+    color: #9C94AC;
+}
+.home-image--landscape {
+    max-height: 350px;
+}
+
+.home-image--portait {
+    max-height: 420px;
+}
+
+.recent-image {
+    color: white;
+    padding-top: 18px;
+    text-align: center;
+}
+
+.project-link:hover {
+    text-shadow: none;
+}
+.projects{
+    z-index: 7;
+}
+.project {
+    // modify when header is final
+    height: calc(100vh - 30px);
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.slick-dots {
+    position: fixed;
+    bottom: 45px;
+    right: 5px;
+    display: flex !important;
+}
+
+.caption-dot {
+  
+}
+.slick-dots li a::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8.5px;
+    -moz-border-radius: 7.5px;
+    -webkit-border-radius: 7.5px;
+    border-radius: 7.5px;
+    margin-right: 10px;
+    border: 1px solid white;
+   
+}
+.slick-dots li a:hover::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8.5px;
+    -moz-border-radius: 7.5px;
+    -webkit-border-radius: 7.5px;
+    border-radius: 7.5px;
+    margin-right: 10px;
+   
+    background-color: white;
+}
+.heading {
+    display: none;
+}
+.slick-dots li.slick-active a::before{
+    background-color: white;
+    
+}
+
+ 
+
+.slick-dots li button {
+    display: none;
+}
+.project-link-home .caption-title {
+    display: none;
+}
+
+.slick-dots li:hover .project-link-home .caption-title, .slick-dots li.slick-active .project-link-home .caption-title {
+    display: block;
+    position: absolute;
+    bottom: -30px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: white;
+    width: 100vw;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    font-family: 'arial-rounded';
+}
+.caption-title, button {
+    display: none
+}
+
+.front-desktop {
+    header a {
+        pointer-events: none;
+    }
+    header .about {
+        pointer-events: visible;
+    }
+}
+
+// project page
+
+
+.projects-dots {
+    width: 10px;
+    height: 10.5px;
+    -moz-border-radius: 7.5px;
+    -webkit-border-radius: 7.5px;
+    border-radius: 7.5px;
+    margin-right: 10px;
+    border: 1px solid white;
+}
+.project-page-title-menu {
+    display: none;
+    color: white;
+    position: fixed;
+    width: 100vw;
+    right: 15px;
+    text-align: right;
+    margin-top: 19px;
+}
+.project-menu ul {
+    display: flex;
+    position: fixed;
+    bottom: 48px;
+    right: 5px;
+   
+    li.active .projects-dots {
+        background-color: white;
+    }
+  
+    li.active .project-page-title-menu {
+        display: block;
+        &::before {
+            content:""
+        }
+    }
+}
+.projects-dots:hover ~ .project-page-title-menu {
+    display: block;
+    z-index: 33;
+   background-color: transparent;
+   height: 20px;
+    &::before {
+        content:"other project:"
+    }
+}
+.projects-dots:hover {
+    background-color: white;
+}
+
+
+
+.logo-auri {
+    position: fixed;
+    top: 7px;
+    left: 7px;
+    width: 450px;
+    z-index: 2;
+}
+.logo-auri:hover {
+    filter: drop-shadow(#c2eff6 0 0 7px);
+}
+.logo-auri-static {
+    position: fixed;
+    top: -4px;
+    left: -1px;
+    width: 450px;
+    z-index: 2;
+}
+.project-gallery {
+    margin: -15px;
+    .slick-dots {
+        margin: 15px 0 0 15px;
+    }
+}
+.project-img {
+    height: 560px;
+}
+@media screen and (max-height: 900px) { 
+    .project-img {
+        height: 69vh;
+    }
+ }
+
+.project-info {
+    margin-top: 35px;
+    margin-left: 15px;
+    .project-page-stitre {
+        padding-left: 35px;
+    }
+    .project-page-lien {
+        padding-left: 35px;
+        height: 20px;
+    }
+    .project-page-desc {
+       max-width: 600px;;
+    }
+}
+
+
+// about page
+
+.about-page {
+    height: 100vh;
+    margin: -15px;
+    background: white !important;
+    color: black;
+    padding: $margin-d;
+    .about { 
+        cursor: pointer;
+    }
+    .about-desc {
+        max-width: 600px;
+    }
+    .about-liens {
+        display: flex;
+        flex-direction: column;
+        margin: 15px 0 0 0;
+        a {
+            margin-bottom: 15px;
+        }
+    }
+    .friends-liens {
+        position: fixed;
+        bottom: $margin-d;
+        display: flex;
+        flex-direction: column;
+        .friends-list {
+            margin-top: $margin-d;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+

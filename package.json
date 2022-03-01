@@ -1,0 +1,13 @@
+{
+  "name": "auri",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "node-sass --output-style compressed --include-path scss assets/css/source.scss style.css",
+    "watch": "nodemon -e scss -x \"npm run css\""
+  },
+  "author": "",
+  "license": "ISC"
+}
