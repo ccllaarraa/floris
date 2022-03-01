@@ -2,25 +2,24 @@
 <html lang="en"> 
 <head>
     <!-- Meta -->
-    <title>Auriane Preud'homme</title>
+    <title>Floris Dutoit</title>
 	<meta charset="utf-8">
-    <meta name="description" content="Auriane Preud'homme">
+    <meta name="description" content="Floris Dutoit">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="Cache-control" content="public">
     <meta name="theme-color" content="#fafafa">
-    <meta property="og:title" content="Auriane Preud'homme">
-    <meta property="og:description" content="Auriane Preud'homme">
+    <meta property="og:title" content="Floris Dutoit">
+    <meta property="og:description" content="Floris Dutoit">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="   "><meta property="og:site_name" content="Auriane Preud'homme">
+    <meta property="og:url" content="   "><meta property="og:site_name" content="Floris Dutoit">
 
     
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
-<!-- slickslider -->
+<!-- jquery -->
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-				
+  
+
 
 
 
@@ -38,3 +37,7 @@
 <body> 
 
 
+<header>
+ <a href="<?php echo home_url(); ?>"><img class="floris" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/floris.svg" alt="Floris Dutoit" ></a>
+ 
+</header>

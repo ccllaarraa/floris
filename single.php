@@ -7,7 +7,7 @@ get_header();
 
         <header class="auri-menu" id="header" >
                                 <ul class="menu-left">
-                                        <li><a href="<?php echo home_url(); ?>"><img class="logo-auri logo-auri-static" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png" alt="Auriane Preud'homme" ></a></li>
+                                        <li><a href="<?php echo home_url(); ?>"><img class="logo-auri logo-auri-static" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png" alt="Floris Dutoit" ></a></li>
                 </ul>
 
                 <a class="about" href="./about">about</a>
@@ -18,7 +18,7 @@ get_header();
                 <header class="auri-menu-mobile" id="header" >
                         <a class="index close" id="menu-button" >index</a>
                                         <ul class="menu-left">
-                                                <li><a href="<?php echo home_url(); ?>"><img class="logo-auri logo-auri-static" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png" alt="Auriane Preud'homme" ></a></li>
+                                                <li><a href="<?php echo home_url(); ?>"><img class="logo-auri logo-auri-static" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png" alt="Floris Dutoit" ></a></li>
                         </ul>
 
                         <a class="about" href="./about">about</a>

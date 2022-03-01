@@ -9,5 +9,8 @@
     "watch": "nodemon -e scss -x \"npm run css\""
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jquery.pan": "^3.0.4"
+  }
 }
