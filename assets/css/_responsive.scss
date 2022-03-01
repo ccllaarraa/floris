@@ -1,6 +1,26 @@
-@media screen and (max-width: 764px) { 
-    
-    
-
-
+@media screen and (max-width: 800px) { 
+    .about-page {
+        grid-template-columns: none;
+        padding-bottom: 140px;
+    }
+    .col {
+        width: 80vw;
+        margin-bottom: 33px;
+    }    
+.front-desktop {
+    display: none;
+}
+.front-mobile {
+    display: block
+}
  }
+
+
+ @media screen and (max-width: 764px) { 
+    
+    .col {
+        width: 100%;
+    }    
+
+
+}

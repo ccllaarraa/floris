@@ -30,6 +30,16 @@
         .thumb-img:hover {
             cursor:url("./ofull.svg"), pointer !important;
         }
+        li {
+            .caption {
+                text-align: center;
+                 padding: 0 0 5px 0;
+                 visibility: hidden;
+            }
+            &:hover > .caption {
+                visibility: visible;
+            }
+        }
     }
 }
 
@@ -42,4 +52,38 @@
 }
 .panWrapper a.controls.in , .panWrapper a.controls.out, .panWrapper a.controls.close{
 display: none !important;
+}
+
+
+//about
+.about {
+    position: fixed;
+    z-index: 10000;
+    bottom: 10px;
+    left: 10px;
+    width: 130px;
+}
+.about:hover {
+    cursor:url("./ofull.svg"), pointer !important;
+    filter: invert(97%) sepia(2%) saturate(4719%) hue-rotate(34deg) brightness(103%) contrast(101%);
+}
+.about-page {
+    width: 100vw;
+    background: #E1FFCE;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 80px;
+    padding: 10px;
+    p , span, a{
+        line-height: 18px;
+        font-size: 13px;
+    }
+}
+
+.col1 {
+    margin-top: 140px;
+}
+.col {
+   
 }

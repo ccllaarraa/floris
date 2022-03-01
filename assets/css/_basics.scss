@@ -42,7 +42,7 @@ html {
 }
 a {
     text-decoration: none;
-    color: #9C94AC;
+    color: #9d1cdd;
 }
 
 a:link {
@@ -59,7 +59,7 @@ a:active {
 }
 
 a:hover { 
-    color: #C2EFF6;
+    color: #d400ff;
     cursor:url("./ofull.svg"), pointer !important;
 }
 ul {
@@ -67,4 +67,10 @@ ul {
 }
 .panWrapper, .panWrapper img.i {
     cursor:url("./x.svg"), pointer !important;
+}
+.front-desktop {
+    display: block;
+}
+.front-mobile {
+    display: none;
 }
