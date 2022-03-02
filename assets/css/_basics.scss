@@ -74,3 +74,8 @@ ul {
 .front-mobile {
     display: none;
 }
+p::selection, span::selection, a::selection {
+    background: rgb(249, 225, 252);
+    color: #9d1cdd;
+  
+}
