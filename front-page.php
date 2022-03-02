@@ -71,7 +71,7 @@ get_header();
                     
                         <p class="caption"><?php the_title(); ?> 
                         <?php  if($image['caption']) : ?>
-                            ~
+                            —
                         <?php echo esc_html($image['caption']); ?>
                         <?php endif; ?> </p>
                     </li>
