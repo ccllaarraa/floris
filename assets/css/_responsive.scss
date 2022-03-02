@@ -1,17 +1,31 @@
 @media screen and (max-width: 800px) { 
     .about-page {
         grid-template-columns: none;
-        padding-bottom: 140px;
+        
     }
     .col {
         width: 80vw;
         margin-bottom: 33px;
     }    
+    .col1 {
+        margin-top: 160px;
+    }
 .front-desktop {
     display: none;
 }
 .front-mobile {
     display: block
+}
+.projects {
+    margin-top: -10px;
+}
+//children tree
+.projects .project li .caption {
+    visibility: visible;
+}
+.about-page p, .about-page span, .about-page a {
+    line-height: 14px;
+    font-size: 10px;
 }
  }
 

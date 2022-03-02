@@ -8,12 +8,11 @@
     font-size: 11.5px;
     line-height: 1.2;
     scrollbar-width: none !important; 
-    cursor:url("./o.svg"), auto !important;
+    cursor:url("./o.svg") 0 0, auto !important;
+    cursor: -webkit-image-set("./o.svg") 0 0, auto !important;
   
 }
 
-
-  
 @font-face {
     font-family: "univers";
     src: url(./assets/fonts/UniversElse-Regular.ttf) format("truetype");
@@ -21,7 +20,8 @@
     font-style: normal;
 }
 body {
-    cursor:url("./o.svg"), auto !important;;
+    cursor:url("./o.svg") 0 0, auto !important;
+    cursor: -webkit-image-set("./o.svg") 0 0, auto !important;
         font-family: "univers", Arial, Helvetica, sans-serif;
        
 }

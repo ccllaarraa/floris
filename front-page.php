@@ -2,7 +2,7 @@
 get_header();
 ?>
 
-<div class="front-desktop">
+<div class="front-desktop" >
     <a href="./about"><img class="about" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about.svg" alt="about"></a>
     <div class="projects">
     <?php 
@@ -19,9 +19,9 @@ get_header();
         <ul class="project">
             <?php foreach( $images as $image ): ?>
                 
-                <li>
+                <li >
                     <a  class="pan" href="#" data-big="<?php echo $image['url']; ?>" alt="<?php echo esc_attr($image['alt']); ?>" >
-                        <img class="thumb-img" src="<?php echo esc_url($image['sizes']['medium']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+                        <img class="thumb-img child " src="<?php echo esc_url($image['sizes']['medium']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
                     </a>
                 
                     <p class="caption"><?php the_title(); ?> 
@@ -47,7 +47,7 @@ get_header();
  
 
 
-<div class="front-mobile">
+<div class="front-mobile" >
     <a href="./about"><img class="about" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about.svg" alt="about"></a>
         <div class="projects">
         <?php 
@@ -64,9 +64,9 @@ get_header();
             <ul class="project">
                 <?php foreach( $images as $image ): ?>
                     
-                    <li>
+                    <li >
                       
-                            <img class="thumb-img" src="<?php echo $image['url']; ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+                            <img class="thumb-img  " src="<?php echo $image['url']; ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
                       
                     
                         <p class="caption"><?php the_title(); ?> 

@@ -34,10 +34,10 @@
 
 
 
-<body> 
+<body onload="tree()"> 
 
 
-<header>
+<header >
  <a href="<?php echo home_url(); ?>"><img class="floris" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/floris.svg" alt="Floris Dutoit" ></a>
  
 </header>
