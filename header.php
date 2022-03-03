@@ -38,6 +38,12 @@
 
 
 <header >
- <a href="<?php echo home_url(); ?>"><img class="floris" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/floris.svg" alt="Floris Dutoit" ></a>
+ <img class="floris" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/floris-1.svg" alt="Floris Dutoit" >
+<img class="dutoit" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/dutoit.svg" alt="Floris Dutoit" >
+
+ <a href="<?php echo home_url(); ?>"><img class="index" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/index.svg" alt="index" ></a>
+ 
+ <a href="./about"><img class="about" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about.svg" alt="zbout" ></a>
+ 
  
 </header>

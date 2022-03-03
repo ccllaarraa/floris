@@ -6,14 +6,45 @@
     top: 10px;
     z-index: 10000;
 }
-.floris:hover {
+.index {
+    position: fixed;
+    right: 10px;
+    width: 141px;
+    bottom: 10px;
+    z-index: 10000;
+}
+.index:hover {
     cursor:url("./ofull.svg"), pointer !important;
-    filter: invert(97%) sepia(2%) saturate(4719%) hue-rotate(34deg) brightness(103%) contrast(101%);
+    filter: invert(10%) sepia(97%) saturate(7484%) hue-rotate(282deg) brightness(69%) contrast(96%);
+
+
+    -ms-transform: skewX(-30deg); /* IE 9 */
+    transform: skewX(-30deg);
+    transition: transform 1s;
+}
+.dutoit {
+    position: fixed;
+    right: 10px;
+    width: 141px;
+    top: 10px;
+    z-index: 10000;
+}
+.about {
+    position: fixed;
+    z-index: 10000;
+    bottom: 10px;
+    left: 10px;
+    width: 130px;
+}
+.about:hover {
+    cursor:url("./ofull.svg"), pointer !important;
+    filter: invert(10%) sepia(97%) saturate(7484%) hue-rotate(282deg) brightness(69%) contrast(96%);
+
+
     -ms-transform: skewY(20deg); /* IE 9 */
     transform: skewY(20deg);
     transition: transform 1s;
 }
-
 
 //home
 .projects {
@@ -116,20 +147,7 @@ display: none !important;
 
 
 //about
-.about {
-    position: fixed;
-    z-index: 10000;
-    bottom: 10px;
-    left: 10px;
-    width: 130px;
-}
-.about:hover {
-    cursor:url("./ofull.svg"), pointer !important;
-    filter: invert(97%) sepia(2%) saturate(4719%) hue-rotate(34deg) brightness(103%) contrast(101%);
-    -ms-transform: skewY(20deg); /* IE 9 */
-    transform: skewY(20deg);
-    transition: transform 1s;
-}
+
 .about-page {
     width: 100vw;
     background: #E1FFCE;
@@ -145,5 +163,8 @@ display: none !important;
 }
 
 .col1 {
-    margin-top: 150px;
+  
+}
+.col {
+    margin-top: 110px;
 }

@@ -6,7 +6,6 @@
 get_header();
 ?>
 
-<!-- <a class="about about-back"  onclick="history.back()">back</a> -->
 
 <div class="about-page">
    

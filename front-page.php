@@ -3,8 +3,7 @@ get_header();
 ?>
 
 <div class="front-desktop" >
-    <a href="./about"><img class="about" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about.svg" alt="about"></a>
-    <div class="projects">
+     <div class="projects">
     <?php 
 
     $loop = new WP_Query( array( 'post_type' => 'post', 'posts_per_page' => 100 ) ); 
