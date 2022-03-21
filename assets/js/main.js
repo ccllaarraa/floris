@@ -9,7 +9,7 @@ function tree() {
   var lengthOfChildren = children.length;
 
   for (var index = 0; index < lengthOfChildren; index++) {
-       var classIndex = index % 14; //The magic happens here
+       var classIndex = index % 12; //The magic happens here
        console.log(classIndex);
        children.eq(index).addClass('child'+classIndex);
   }             

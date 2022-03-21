@@ -1,3 +1,14 @@
+.coming {
+    height: 50vh;
+    position: fixed;
+    background: white;
+    bottom: 0;
+    width: 100vw;
+    font-size: 24px;
+    z-index: 100000;
+    text-align: center;
+    font-family: 'times new roman';
+}
 //header
 .floris {
     position: fixed;
@@ -80,43 +91,47 @@
     }
 }
 
+.child {
+    background: #27cc27;
+}
+
 //children tree
 
 .child0 {
     width: 100px;
 }
 .child1 {
-    width: 150px;
-}
-
-.child2 {
     width: 200px;
 }
 
-.child3 {
-    width: 250px;
-}
-.child4 {
+.child2 {
     width: 300px;
 }
+
+.child3 {
+    width: 400px;
+}
+.child4 {
+    width: 500px;
+}
 .child5 {
-    width: 350px;
+    width: 600px;
 }
 
 .child6 {
-    width: 400px;
+    width: 700px;
 }
 
 
 .child7 {
-    width: 450px;
+    width: 600px;
 }
 
 .child8 {
-    width: 400px;
+    width: 500px;
 }
 .child9 {
-    width: 350px;
+    width: 400px;
 }
 
 .child10 {
@@ -124,15 +139,100 @@
 }
 
 .child11 {
-    width: 250px;
-}
-.child12 {
     width: 200px;
 }
 
-.child13 {
-    width: 150px;
-}
+
+// .child0 {
+//     width: 100px;
+// }
+// .child1 {
+//     width: 150px;
+// }
+
+// .child2 {
+//     width: 200px;
+// }
+
+// .child3 {
+//     width: 250px;
+// }
+// .child4 {
+//     width: 300px;
+// }
+// .child5 {
+//     width: 350px;
+// }
+
+// .child6 {
+//     width: 400px;
+// }
+
+
+// .child7 {
+//     width: 450px;
+// }
+
+// .child8 {
+//     width: 500px;
+// }
+// .child9 {
+//     width: 550px;
+// }
+
+// .child10 {
+//     width: 600px;
+// }
+
+// .child11 {
+//     width: 650px;
+// }
+// .child12 {
+//     width: 700px;
+// }
+
+// .child13 {
+//     width: 650px;
+// }
+
+// .child14 {
+//     width: 600px;
+// }
+
+// .child15 {
+//     width: 550px;
+// }
+// .child16 {
+//     width: 500px;
+// }
+
+// .child17 {
+//     width: 450px;
+// }
+
+// .child18 {
+//     width: 400px;
+// }
+// .child19 {
+//     width: 350px;
+// }
+
+// .child20 {
+//     width: 300px;
+// }
+// .child21 {
+//     width: 250px;
+// }
+// .child22 {
+//     width: 200px;
+// }
+
+// .child23 {
+//     width: 150px;
+// }
+
+
+
 
 
 //pan
